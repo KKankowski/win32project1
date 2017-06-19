@@ -114,7 +114,6 @@ void Draw(HWND hWnd)
 			{
 				if (y > (20 + 75 * (5 - koniec)))
 				{
-					Sleep(10);
 					y--;
 					HDC hdcOkno = GetDC(hWnd);
 					HPEN CzarnePioro, NiebieskiePioro, Pudelko;
@@ -142,7 +141,6 @@ void Draw(HWND hWnd)
 			{
 				if (y < (320 - 75 * (koniec - 5)))
 				{
-					Sleep(10);
 					y++;
 					HDC hdcOkno = GetDC(hWnd);
 					HPEN CzarnePioro, NiebieskiePioro, Pudelko;
@@ -177,7 +175,6 @@ void Draw(HWND hWnd)
 		{
 			for (int i = 0; i < odleglosc2; i++)
 			{
-				Sleep(10);
 				y--;
 				HDC hdcOkno = GetDC(hWnd);
 				HPEN CzarnePioro, NiebieskiePioro, Pudelko;
@@ -200,7 +197,6 @@ void Draw(HWND hWnd)
 		{
 			for (int i = 0; i < odleglosc2; i++)
 			{
-				Sleep(10);
 				y++;
 				HDC hdcOkno = GetDC(hWnd);
 				HPEN CzarnePioro, NiebieskiePioro, Pudelko;
